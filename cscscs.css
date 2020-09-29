@@ -1,3 +1,25 @@
 body{
-background-color: #2a2a2a;
+	background-color: #2a2a2a;
+	font-family: Arial;
+}
+.ketik  {
+            font-size: 30px;
+            color: #cacaca;
+            width: 100%;
+            line-height: 50px;
+            white-space:nowrap;
+            overflow:hidden;
+            -webkit-animation: ketik 5s steps(50, end);
+            animation: ketik 5s steps(50, end);
+        }
+ 
+        @keyframes ketik{
+            from { width: 0; }
+        }
+ 
+        @-webkit-keyframes ketik{
+            from { width: 0; }
+        }
+.front {
+	color: #cacaca;
 }
