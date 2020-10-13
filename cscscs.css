@@ -26,7 +26,18 @@ body{
 .profil {
 	border-radius:50%;
 }
-
 .facebook:hover {
+	width:5%;
+}
+.github:hover {
+	width:5%;
+}
+.linkedin:hover {
+	width:5%;
+}
+.twitter:hover {
+	width:5%;
+}
+.instagram:hover {
 	width:5%;
 }
