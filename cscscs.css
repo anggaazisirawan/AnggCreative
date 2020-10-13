@@ -26,3 +26,7 @@ body{
 .profil {
 	border-radius:50%;
 }
+
+.facebook:hover {
+	width:50%;
+}
