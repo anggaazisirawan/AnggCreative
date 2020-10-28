@@ -28,16 +28,21 @@ body{
 }
 .facebook:hover {
 	width:5%;
+	-webkit-transition:all .5s ease-in;
 }
 .github:hover {
 	width:5%;
+	-webkit-transition:all .5s ease-in;
 }
 .linkedin:hover {
 	width:5%;
+	-webkit-transition:all .5s ease-in;
 }
 .twitter:hover {
 	width:5%;
+	-webkit-transition:all .5s ease-in;
 }
 .instagram:hover {
 	width:5%;
+	-webkit-transition:all .5s ease-in;
 }
