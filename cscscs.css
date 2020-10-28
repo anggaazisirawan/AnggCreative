@@ -28,21 +28,26 @@ body{
 }
 .facebook:hover {
 	width:5%;
-	-webkit-transition:all .5s ease-in;
+	-webkit-transition:all .3s ease-in;
+	-webkit-transition:all .3s ease-out;
 }
 .github:hover {
 	width:5%;
-	-webkit-transition:all .5s ease-in;
+	-webkit-transition:all .3s ease-in;
+	-webkit-transition:all .3s ease-out;
 }
 .linkedin:hover {
 	width:5%;
-	-webkit-transition:all .5s ease-in;
+	-webkit-transition:all .3s ease-in;
+	-webkit-transition:all .3s ease-out;
 }
 .twitter:hover {
 	width:5%;
-	-webkit-transition:all .5s ease-in;
+	-webkit-transition:all .3s ease-in;
+	-webkit-transition:all .3s ease-out;
 }
 .instagram:hover {
 	width:5%;
-	-webkit-transition:all .5s ease-in;
+	-webkit-transition:all .3s ease-in;
+	-webkit-transition:all .3s ease-out;
 }
