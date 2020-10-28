@@ -28,8 +28,8 @@ body{
 }
 .facebook:hover {
 	width:5%;
-	-webkit-transition:all .3s ease-in;
-	-webkit-transition:all .3s ease-out;
+	transition:width 1s;
+	-webkit-transition:width 1s;
 }
 .github:hover {
 	width:5%;
