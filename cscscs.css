@@ -27,52 +27,52 @@ body{
 	border-radius:50%;
 }
 .facebook {
-	width:4px;
-	height:4px;
+	width:100px;
+	height:100px;
 	background-color:#6495ED;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 }
 .facebook:hover {
-	width:5px;
+	width:300px;
 }
 .github {
-	width:4px;
-	height:4px;
+	width:100px;
+	height:100px;
 	background-color:#2F4F4F;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 }
 .github:hover {
-	width:5px;
+	width:300px;
 }
 .linkedin {
-	width:4px;
-	height:4px;
+	width:100px;
+	height:100px;
 	background-color:#1E90FF;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 }
 .linkedin:hover {
-	width:5px;
+	width:300px;
 }
 .twitter {
-	width:4px;
-	height:4px;
+	width:100px;
+	height:100px;
 	background-color:#00FFFF;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 }
 .twitter:hover {
-	width:5px;
+	width:300px;
 }
 .instagram {
-	width:4px;
-	height:4px;
+	width:100px;
+	height:100px;
 	background-color:#FF1493;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 }
 .instagram:hover {
-	width:5px;
+	width:300px;
 }
