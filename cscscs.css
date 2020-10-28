@@ -34,7 +34,7 @@ body{
 	-webkit-transition:width 1s;
 }
 .facebook:hover {
-	width:300px;
+	width:150px;
 }
 .github {
 	width:100px;
@@ -44,7 +44,7 @@ body{
 	-webkit-transition:width 1s;
 }
 .github:hover {
-	width:300px;
+	width:150px;
 }
 .linkedin {
 	width:100px;
@@ -54,7 +54,7 @@ body{
 	-webkit-transition:width 1s;
 }
 .linkedin:hover {
-	width:300px;
+	width:150px;
 }
 .twitter {
 	width:100px;
@@ -64,7 +64,7 @@ body{
 	-webkit-transition:width 1s;
 }
 .twitter:hover {
-	width:300px;
+	width:150px;
 }
 .instagram {
 	width:100px;
@@ -74,5 +74,5 @@ body{
 	-webkit-transition:width 1s;
 }
 .instagram:hover {
-	width:300px;
+	width:150px;
 }
