@@ -43,7 +43,7 @@ body{
 	margin-bottom:-4px;
 	width:55px;
 	height:55px;
-	background-color:#2F4F4F;
+	background-color:transparent;
 	transition:width 0.5s;
 	-webkit-transition:width 0.5s;
 }
@@ -55,7 +55,7 @@ body{
 	margin-bottom:-4px;
 	width:55px;
 	height:55px;
-	background-color:#1E90FF;
+	background-color:transparent;
 	transition:width 0.5s;
 	-webkit-transition:width 0.5s;
 }
@@ -67,7 +67,7 @@ body{
 	margin-bottom:-4px;
 	width:55px;
 	height:55px;
-	background-color:#00FFFF;
+	background-color:transparent;
 	transition:width 0.5s;
 	-webkit-transition:width 0.5s;
 }
@@ -79,7 +79,7 @@ body{
 	margin-bottom:-4px;
 	width:55px;
 	height:55px;
-	background-color:#FF1493;
+	background-color:transparent;
 	transition:width 0.5s;
 	-webkit-transition:width 0.5s;
 }
