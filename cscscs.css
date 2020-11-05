@@ -20,6 +20,9 @@ body{
         @-webkit-keyframes ketik{
             from { width: 0; }
         }
+.ketik2 {
+	color: #FFFFFF;
+}
 .front {
 	color: #cacaca;
 }
