@@ -4,6 +4,28 @@
 		<meta charset="UTF-8">
 		<title>Angg Creative Portofolio</title>
 		<link rel="stylesheet" type="text/css" href="cscscs.css">
+		<script type="text/javascript">
+//kode javascript diletakkan disini
+		$(document).ready(function() {
+ 
+  // mendapatkan nilai titik scroll bagian atas saat halaman dibuka
+  var initScrollTop = $(window).scrollTop();
+ 
+  // mengubah posisi background ketika melakukan scroll
+  $(parallax1).css({'background-position-y' : (initScrollTop/75)+'%'});
+ 
+  // Saat user melakukan scroll
+  $(window).scroll(function() {
+    
+    // mendapatkan nilai titik scroll terbaru
+    var scrollTop = $(window).scrollTop();
+    
+    // menentukan posisi background yang baru
+    $(parallax1).css({'background-position-y' : (scrollTop/75)+'%'});
+    
+  });
+});
+</script>
 	</head>
 	<body>
 		<div class="container">
@@ -18,5 +40,16 @@
 				<img src="https://www.flaticon.com/svg/static/icons/svg/355/355975.svg" class="instagram" onclick="window.location.href='https://instagram.com/angga_azier'">
 			</center>
 		</div>
+		
+		<div id="parallax1" class="parallax-slide">
+    <div class="parallax-text">
+      <h1>Hallo, ini adalah contoh background parallax menggunakan JQuery</h1>
+      <p>By: Maykhel David</p>
+    </div>
+  </div>
+  <div id="content1" class="content-slide">
+    <h1>Content</h1>
+  </div>
+		
 	</body>
 </html>
