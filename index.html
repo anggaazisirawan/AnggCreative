@@ -4,35 +4,37 @@
 		<meta charset="UTF-8">
 		<title>Angg Creative Portofolio</title>
 		<link rel="stylesheet" type="text/css" href="cscscs.css">
+		
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9">
-		new Typed('#typed',{
-  strings : ['HTML','CSS','BOOTSTRAP','JAVASCRIPT'],
-  typeSpeed : 100,
-  delaySpeed : 100,
-  loop : true
-});
+			new Typed('#typed',{
+  			strings : ['HTML','CSS','BOOTSTRAP','JAVASCRIPT'],
+  			typeSpeed : 100,
+  			delaySpeed : 100,
+  			loop : true
+			});
 		</script>
+		
 		<script type="text/javascript">
-		$(document).ready(function() {
+			$(document).ready(function() {
  
-  // mendapatkan nilai titik scroll bagian atas saat halaman dibuka
-  var initScrollTop = $(window).scrollTop();
- 
-  // mengubah posisi background ketika melakukan scroll
-  $(parallax1).css({'background-position-y' : (initScrollTop/75)+'%'});
- 
-  // Saat user melakukan scroll
-  $(window).scroll(function() {
+			  // mendapatkan nilai titik scroll bagian atas saat halaman dibuka
+			  var initScrollTop = $(window).scrollTop();
+
+			  // mengubah posisi background ketika melakukan scroll
+			  $(parallax1).css({'background-position-y' : (initScrollTop/75)+'%'});
+
+			  // Saat user melakukan scroll
+			  $(window).scroll(function() {
     
-    // mendapatkan nilai titik scroll terbaru
-    var scrollTop = $(window).scrollTop();
-    
-    // menentukan posisi background yang baru
-    $(parallax1).css({'background-position-y' : (scrollTop/75)+'%'});
-    
-  });
-});
-</script>
+			    // mendapatkan nilai titik scroll terbaru
+			    var scrollTop = $(window).scrollTop();
+
+			    // menentukan posisi background yang baru
+			    $(parallax1).css({'background-position-y' : (scrollTop/75)+'%'});
+
+			  });
+			});
+		</script>
 		
 	</head>
 	<body>
