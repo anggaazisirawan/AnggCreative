@@ -21,7 +21,23 @@ body{
             from { width: 0; }
         }
 .ketik2 {
-	color: #FFFFFF;
+	 font-size: 30px;
+         color: #cacaca;
+            width: 100%;
+            line-height: 50px;
+            white-space:nowrap;
+            overflow:hidden;
+            -webkit-animation: ketik 10s steps(50, end);
+            animation: ketik 10s steps(50, end);
+        }
+ 
+        @keyframes ketik{
+            from { width: 0; }
+        }
+ 
+        @-webkit-keyframes ketik{
+            from { width: 0; }
+        }
 }
 .front {
 	color: #cacaca;
