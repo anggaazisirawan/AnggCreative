@@ -9,8 +9,8 @@ body{
             line-height: 50px;
             white-space:nowrap;
             overflow:hidden;
-            -webkit-animation: ketik 5s steps(50, end);
-            animation: ketik 5s steps(50, end);
+            -webkit-animation: ketik 8s steps(50, end);
+            animation: ketik 8s steps(50, end);
         }
  
         @keyframes ketik{
@@ -23,19 +23,19 @@ body{
 .ketik2 {
 	 font-size: 30px;
          color: #cacaca;
-            width: 100%;
-            line-height: 50px;
-            white-space:nowrap;
-            overflow:hidden;
-            -webkit-animation: ketik 10s steps(50, end);
-            animation: ketik 10s steps(50, end);
+         width: 100%;
+         line-height: 50px;
+         white-space:nowrap;
+         overflow:hidden;
+         -webkit-animation: ketik2 10s steps(50, end);
+         animation: ketik2 10s steps(50, end);
         }
  
-        @keyframes ketik{
+        @keyframes ketik2{
             from { width: 0; }
         }
  
-        @-webkit-keyframes ketik{
+        @-webkit-keyframes ketik2{
             from { width: 0; }
         }
 }
