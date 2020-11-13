@@ -6,8 +6,40 @@
 		<link rel="stylesheet" type="text/css" href="cscscs.css">
 		
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9">
+
 		
-</head>
+		<script type="text/javascript">
+			$(document).ready(function() {
+ 
+			  // mendapatkan nilai titik scroll bagian atas saat halaman dibuka
+			  var initScrollTop = $(window).scrollTop();
+
+			  // mengubah posisi background ketika melakukan scroll
+			  $(parallax1).css({'background-position-y' : (initScrollTop/75)+'%'});
+
+			  // Saat user melakukan scroll
+			  $(window).scroll(function() {
+    
+			    // mendapatkan nilai titik scroll terbaru
+			    var scrollTop = $(window).scrollTop();
+
+			    // menentukan posisi background yang baru
+			    $(parallax1).css({'background-position-y' : (scrollTop/75)+'%'});
+
+			  });
+			});
+		</script>
+		  
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-XLVBaadSfddiTPYU0d1IjjcpXAsVhU4&callback=initMap" async defer></script>
+<script type="text/javascript">
+	function initMap() {
+		var map = new google.maps.Map(document.getElementById('show_maps'), {
+		  center: {lat: -1.035721, lng: 118.436931},
+		  zoom: 5
+		});
+	}
+</script>
+	</head>
 	<body>
 		<div class="container">
 			<center>
@@ -30,9 +62,29 @@
   			loop : true
 			});
 			</script>
+				<div id="show_maps"  style="width:100%;height:100%;"></div>
 			</center>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+			</div>
+		
+				<div id="parallax1" class="parallax-slide">
+    					<div class="parallax-text">
+	    					<h1>My Skills</h1>
+	    			<ul>
+		    			<li>Web Designer</li>
+		    			<li>Grapics Designer</li>
+					<li>Fotografer</li>
+					<li>Videografer</li>
+					<li>Content Writter</li>
+					<li>Content Creator</li>
+	    			</ul>
+    			</div>
+  		</div>
+  				<div id="content1" class="content-slide">
+    					<h1>Content</h1>
+  				</div>
+		<div id="show_maps"  style="width:100%;height:100%;"></div>
+		 <style>
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 </style> 
-		</body>
+	</body>
 </html>
