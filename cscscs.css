@@ -22,6 +22,9 @@ body{
         }
 .front {
 	color: #cacaca;
+.front2 {
+	color: #cacaca;
+	font-size: 20px;
 }
 .profil {
 	border-radius:50%;
