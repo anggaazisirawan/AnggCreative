@@ -110,7 +110,7 @@ body{
   padding-top: 10%;
 }*/
 #parallax1 {
-  background: url('https://images.pexels.com/photos/1559402/pexels-photo-1559402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
+  background: url('https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
