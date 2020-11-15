@@ -83,7 +83,11 @@
     			</div>
   		</div>
   				<div id="content1" class="content-slide">
-    					<h2>Content</h2>
+    					<h2>Statistik Virus Corona</h2>
+    					<?php
+    					$url = file_get_contents('https://api.kawalcorona.com/indonesia');
+    					$data = json_decode($url, true);
+    					var_dump($data);
   				</div>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
