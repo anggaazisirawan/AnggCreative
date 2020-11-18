@@ -41,6 +41,22 @@
 		<link rel="stylesheet" type="text/css" href="cscscs.css">
 	</head>
 	<body>
+
+		jQuery( document ).ready( function($) {
+  $( window ).scroll( function () {
+    if ( $(document).scrollTop() > 150 ) {
+      // Navigation Bar
+      $('.navbar').removeClass('fadeIn');
+      $('body').addClass('shrink');
+      $('.navbar').addClass('animated fadeInDown');
+    } else {
+      $('.navbar').removeClass('fadeInDown');
+      $('body').removeClass('shrink');
+      $('.navbar').addClass('animated fadeIn');
+    }
+  });
+});
+
     	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     		<a class="navbar-brand" href="#">AnggCreative Portofolio</a>
     		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,17 +83,6 @@
 		            	<a class="dropdown-item" href="#">Computer Engineering</a>
 		            </div>
 		        	</li>
-
-		        	<div class="dropdown">
-	<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		Tutorial
-	</button>
-	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		<a class="dropdown-item" href="https://www.malasngoding.com/category/html">HTML</a>
-		<a class="dropdown-item" href="https://www.malasngoding.com/category/bootstrap-4">Bootstrap 4</a>
-		<a class="dropdown-item" href="https://www.malasngoding.com/category/codeigniter">CodeIgniter</a>
-	</div>
-</div>
 		        		<!--<li class="nav-item">
 		          			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link Mati</a>
 		        		</li>-->
