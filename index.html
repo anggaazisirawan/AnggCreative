@@ -41,6 +41,22 @@
 		<link rel="stylesheet" type="text/css" href="cscscs.css">
 	</head>
 	<body>
+		<script type="text/javascript">
+
+		$('.page-scroll').on('click', function(e) {
+
+ var tujuan = $(this).attr('href');
+
+ var elemenTujuan = $(tujuan);
+
+ $('html , body').animate({
+  scrollTop: elemenTujuan.offset().top - 50
+ });
+
+ e.preventDefault();
+});
+		
+		</script>
     	<nav class="navbar navbar-default navbar-fixed-top">
     		<div class="container-fluid">
     			<div class="navbar-header">
