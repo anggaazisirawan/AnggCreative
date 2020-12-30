@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\projectbahagia"
+		},
+		{
+			"path": "..\\UntitledManagement"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AnggCreative"
+	}
+}
