@@ -29,6 +29,10 @@ body{
 	color: #cacaca;
 	font-size: 20px;
 }
+.work {
+	background-color: #2a2a2a;
+	color: white;
+}
 .profil {
 	border-radius:50%;
 }
